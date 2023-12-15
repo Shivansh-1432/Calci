@@ -1,0 +1,204 @@
+/*@import url('https://fonts.googleapis.com/css2?family=poppins:wght@500&display=swap');  */
+*{
+    margin:0px;
+    padding:0px;
+   box-sizing:border-box;
+   font-family:sans-serif;
+}
+body{
+ width:100%;
+ height:100vh;
+ display:flex;
+ justify-content:center;  /* justify content is used for  Horizintally allignment of calculator div   */
+ align-items : center;    /* align-item :Center is used vertically alignment */
+ background: linear-gradient(45deg,#0a0a0a,#3a4452);
+
+}
+
+.calculator{
+    border:1px solid #717377;
+    padding:20px;
+    border-radius:16px;
+    background:transparent;
+    box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
+
+}
+input{
+width:320px;
+border:none;
+padding:24px;
+margin:10px;
+background: transparent;
+box-shadow: 0px 3px 15px rgba(84,84,84,0.1);
+font-size:40px;
+text-align: right;
+cursor:pointer;
+color:#ffffff;
+
+}
+input::placeholder{
+ color:#ffffff;
+}
+button{
+    border:none;
+    width:60px;
+    height:60px;
+    margin:10px;
+    border-radius:50%;
+    background-color: transparent;
+    color:#ffffff;
+    font-size: 20px;
+    cursor:pointer;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1);
+}
+.equalBtn{
+    background-color: #fb7c14;
+}
+.operator{
+    color:#6dee0a;
+}
+
+.sign{
+position:Absolute;
+font-size: 150px;
+color:white;
+
+}
+#s1{
+    top:80px;
+    left:200px;
+  /*  animation:s1a 7s 1;   */
+    animation:rota 5s infinite;   
+}
+#s2{
+    top:280px;
+    left:200px;
+    /* animation:s2a 7s 1; */
+     animation:rota 5s infinite; 
+}
+#s3{
+    top:540px;
+    left:200px;
+    height:50px;
+    text-align:center !important;
+    line-height: 100% !important;
+    /* animation:s3a 7s 1; */
+    animation:rota 5s infinite;
+    transform-origin: center;
+}
+#s4{
+    top:110px;
+    right:200px;
+    font-size:100px;
+    /* animation:s4a 7s 1; */
+    animation:rota 5s infinite;
+}
+#s5{
+    top:330px;
+    right:200px;
+    font-size:80px;
+    /* animation:s5a 7s 1; */
+    animation:rota 5s infinite;
+}
+#s6{
+    top:540px;
+    right:200px;
+    font-size:100px;
+    /* animation:s6a 7s 1; */
+    animation:rota 5s infinite;
+}
+/*
+@keyframes s1a
+{
+    from{
+      top:0px;
+      left:0px;
+      transform: rotate(0deg) scale(1);
+    }
+    to{
+      top:80px;
+      transform: rotate(720deg) scale(1);
+      color:rgb(38, 211, 38);
+    }
+}
+@keyframes s2a
+{
+    from{
+      top:80px;
+      left:0px;
+      transform: rotate(0deg) scale(1);
+    }
+    to{
+      top:280px;
+      transform: rotate(720deg) scale(1);
+      color:rgb(38, 211, 38);
+    }
+}
+@keyframes s3a
+{
+    from{
+      top:280px;
+      left:0px;
+      transform: rotate(0deg) scale(1);
+    }
+    to{
+      top:540px;
+      transform: rotate(720deg) scale(1);
+      color:rgb(38, 211, 38);
+    }
+}
+@keyframes s4a
+{
+    from{
+      top:5px;
+      right:5px;
+      transform: rotate(0deg) scale(1);
+    }
+    to{
+      top:110px;
+      transform: rotate(720deg) scale(1);
+      color:rgb(38, 211, 38);
+    }
+}
+@keyframes s5a
+{
+    from{
+      top:110px;
+      right:5px;
+      transform: rotate(0deg) scale(1);
+    }
+    to{
+      top:330px;
+      transform: rotate(720deg) scale(1);
+      color:rgb(38, 211, 38);
+    }
+}
+@keyframes s6a
+{
+    from{
+      top:330px;
+      right:5px;
+      transform: rotate(0deg) scale(1);
+    }
+    to{
+      top:540px;
+      transform: rotate(720deg) scale(1);
+      color:rgb(38, 211, 38);
+    }
+}
+*/
+@keyframes rota 
+{
+    from{
+        transform-origin: 50%;
+        transform:rotate(0deg);
+        color:rgb(168, 249, 168);
+    }
+    to{
+        transform:rotate(360deg);
+        color:rgb(38, 211, 38);
+        transform-origin: 50%;
+        
+        
+    }
+}
