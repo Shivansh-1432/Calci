@@ -10,14 +10,15 @@ body{
  height:100vh;
  display:flex;
  justify-content:center;  /* justify content is used for  Horizintally allignment of calculator div   */
- align-items : center;    /* align-item :Center is used vertically alignment */
+     /* align-item :Center is used vertically alignment */
  background: linear-gradient(45deg,#0a0a0a,#3a4452);
 
 }
 
 .calculator{
     border:1px solid #717377;
-    
+    height:fit-content;
+    margin-top: 9vw;
     padding:1.7vw;
     border-radius:2vw;
     background:transparent;
