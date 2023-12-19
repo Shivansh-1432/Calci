@@ -17,20 +17,21 @@ body{
 
 .calculator{
     border:1px solid #717377;
-    padding:20px;
-    border-radius:16px;
+    
+    padding:1.7vw;
+    border-radius:2vw;
     background:transparent;
     box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
 
 }
 input{
-width:320px;
+width:20vw;
 border:none;
-padding:24px;
-margin:10px;
+padding:1vw;
+margin:0.5vw;
 background: transparent;
 box-shadow: 0px 3px 15px rgba(84,84,84,0.1);
-font-size:40px;
+font-size:2.5vw;
 text-align: right;
 cursor:pointer;
 color:#ffffff;
@@ -41,13 +42,13 @@ input::placeholder{
 }
 button{
     border:none;
-    width:60px;
-    height:60px;
-    margin:10px;
+    width:3.5vw;
+    height:3.5vw;
+    margin:0.79vw;
     border-radius:50%;
     background-color: transparent;
     color:#ffffff;
-    font-size: 20px;
+    font-size: 1.3vw;
     cursor:pointer;
     box-shadow: -8px -8px 15px rgba(255,255,255,0.1);
 }
@@ -60,25 +61,25 @@ button{
 
 .sign{
 position:Absolute;
-font-size: 150px;
+font-size: 11vw;
 color:white;
 
 }
 #s1{
-    top:80px;
-    left:200px;
+    top:6vw;
+    left:20vw;
   /*  animation:s1a 7s 1;   */
     animation:rota 5s infinite;   
 }
 #s2{
-    top:280px;
-    left:200px;
+    top:18vw;
+    left:20vw;
     /* animation:s2a 7s 1; */
      animation:rota 5s infinite; 
 }
 #s3{
-    top:540px;
-    left:200px;
+    top:35vw;
+    left:20vw;
     height:50px;
     text-align:center !important;
     line-height: 100% !important;
@@ -87,23 +88,23 @@ color:white;
     transform-origin: center;
 }
 #s4{
-    top:110px;
-    right:200px;
-    font-size:100px;
+    top:6vw;
+    right:20vw;
+    font-size:7.5vw;
     /* animation:s4a 7s 1; */
     animation:rota 5s infinite;
 }
 #s5{
-    top:330px;
-    right:200px;
-    font-size:80px;
+    top:22vw;
+    right:20vw;
+    font-size:7.5vw;
     /* animation:s5a 7s 1; */
     animation:rota 5s infinite;
 }
 #s6{
-    top:540px;
-    right:200px;
-    font-size:100px;
+    top:35vw;
+    right:20vw;
+    font-size:7.5vw;
     /* animation:s6a 7s 1; */
     animation:rota 5s infinite;
 }
